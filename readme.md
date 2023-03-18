@@ -13,7 +13,7 @@ npm install -g filegpt
 ## Usage
 
 ```bash
-npx filegpt <API_KEY> <Instruction> <File_Path>
+npx filegpt <API_KEY> <File_Path> <Instruction>
 ```
 
 - `<API_KEY>`: Your OpenAI API key.
@@ -33,7 +33,7 @@ function helloWorld() {
 And you want to add a new function to say goodbye. You can run the following command:
 
 ```bash
-npx filegpt "sk-123..." "add a function to say goodbye" example.js
+npx filegpt "sk-123..." example.js "add a function to say goodbye"
 ```
 
 The CLI tool will interact with the GPT- 3.5/4 model and update the file with the new function:

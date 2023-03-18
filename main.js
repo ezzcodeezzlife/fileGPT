@@ -5,8 +5,8 @@ const path = require("path");
 const { Configuration, OpenAIApi } = require("openai");
 
 const apiKey = process.argv[2];
-const instruction = process.argv[3];
-const filePath = process.argv[4];
+const filePath = process.argv[3];
+const instruction = process.argv[4];
 
 if (!instruction || !filePath || !apiKey) {
   console.error(
