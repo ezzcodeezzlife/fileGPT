@@ -1,6 +1,6 @@
 {
   "name": "filegpt",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "",
   "main": "main.js",
   "scripts": {
@@ -9,7 +9,11 @@
   "bin": {
     "gpt": "./main.js"
   },
-  "keywords": [],
+  "keywords": ["gpt", "openai", "gpt4", "chatgpt"],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ezzcodeezzlife/fileGPT"
+  },
   "author": "",
   "license": "ISC",
   "dependencies": {
