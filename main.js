@@ -8,7 +8,7 @@ const apiKey = process.argv[2];
 const instruction = process.argv[3];
 const filePath = process.argv[4];
 
-if (!instruction || !filePathv || !apiKey) {
+if (!instruction || !filePath || !apiKey) {
   console.error(
     "Please provide an OpenAI API key, instruction and a file path."
   );
