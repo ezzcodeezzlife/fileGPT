@@ -33,7 +33,7 @@ function helloWorld() {
 And you want to add a new function to say goodbye. You can run the following command:
 
 ```bash
-npx filegpt <your_openai_api_key> "add a function to say goodbye" example.js
+npx filegpt "sk-123..." "add a function to say goodbye" example.js
 ```
 
 The CLI tool will interact with the GPT- 3.5/4 model and update the file with the new function:
